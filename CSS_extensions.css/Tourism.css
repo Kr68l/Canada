@@ -3,24 +3,25 @@
     width: 1480px;
     height: 800px;
     background-color: #F8CC69;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .cloudBR9{
     position: absolute;
-    top: 34px;
-    left: 56px;
-    width: 1374px;
-    height: 731px;
+    top: 504px;
+    left: 572px;
+    width: 947px;
+    height: 523px;
     z-index: 1;
 }
 
 .cloudLD9{
     position: absolute;
-    top: 34px;
-    left: 56px;
-    width: 1374px;
-    height: 731px;
+    top: 680.17px;
+    left: -63px;
+    width: 335px;
+    height: 251px;
+    transform: skew(10deg, 0deg);
     z-index: 1;
 }
 .cloudSUL{
