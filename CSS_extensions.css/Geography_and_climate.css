@@ -1,0 +1,119 @@
+.Geography{
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #38B6FF;
+    overflow: hidden; 
+}
+
+.Waves{
+    position: absolute;
+    top: 550px;
+    left: 0px;
+    width: 1528px;
+    height: 281px;
+    z-index: 0;
+}
+
+.Background{
+    position: absolute;
+    top: 300px;
+    left: 704px;
+    width: 704px;
+    height: 350px;
+    z-index: 1;
+}
+
+.Balloon {
+    top: 0;
+    left: -50;
+    width: 218px;
+    height: 245.5px;
+    z-index: 0;
+}
+
+.Woman{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    width: 649px;
+    height: 490px;
+    z-index: 1;
+}
+
+.Cloud_near_the_suitcase{
+    position: absolute;
+    top: 588px;
+    left: 932px;
+    width: 250px;
+    height: 112px;
+    z-index: 1;
+}
+
+.Cloud_near_the_ball{
+    position: absolute;
+    top: -15px; /*Y*/
+    left: 184px; /*X*/
+    width: 337px;
+    height: 177px;
+    z-index: 1;
+}
+.Under_the_balloon{
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    width: 193px;
+    height: 108px;
+    z-index: 1;
+}
+
+.Cloud_to_the_right_of_the_balln{
+    position: absolute;
+    top: 588px;
+    left: 932px;
+    width: 250px;
+    height: 112px;
+    z-index: 1;
+}
+
+.Sun{
+    position: absolute;
+    top: 73px;
+    left: 1217px;
+    width:  239.33px;
+    height: 139.5px;
+    z-index: 1;
+}
+
+.Suitcase{
+    position: absolute;
+    top: 620px;
+    left: 1241.25px;
+    width:  214.25px;
+    height: 163.22px;
+    z-index: 1;
+}
+
+.text_1 {
+    position: absolute;
+    top: 180px;
+    left: 990px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 55px;
+    width: 541px; 
+    height: 61px;
+    z-index: 5;
+ }
+
+ .subtitle_2 {
+    position: absolute;
+    top: 269px;
+    left: 1050px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 30px;
+    width: 600px; 
+    height: 324px;
+    z-index: 5;
+ }

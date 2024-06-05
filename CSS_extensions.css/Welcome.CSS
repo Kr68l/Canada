@@ -1,0 +1,91 @@
+/*  @import url('https://example.com/path/to/stadio-now-novarese.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+a{
+    text-decoration: none;
+} */
+.Канада {
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #AED8D3;
+    overflow: hidden; 
+}
+
+.image1 { /*Цветы */
+   position: absolute;
+   bottom: 0;
+   right: 0px; 
+   width: 1080px; 
+   height: 707px;
+   z-index: 1;
+}
+
+.image2 { /*Мальчик-рабчик*/
+    position: absolute;
+    bottom: 0;
+    left: 50px; 
+    width: 443px;
+    height: 551px;
+    z-index: 2;
+}
+
+.image3 { /*Главное облоко*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 429px; 
+    height: 237px;
+    z-index: 3;
+}
+
+.image4 { /*Самолет*/
+    position: absolute;
+    top: 0;
+    left: 400px;
+    width: 314px;
+    height: 155.5px;
+    z-index: 4;
+}
+
+.image5 {  /*Облоко под главным*/
+    position: absolute;
+    top: 250px; 
+    left: -30px;
+    width: 261.24px;
+    height: 122.73px;
+    z-index: 4;
+}
+
+.image6 { /*Облоко(под самолет)*/
+   position: absolute;
+   top: 80px;
+   left: 630px;
+   width: 147px;
+   height: 65px;
+   z-index: 4;
+}
+
+.title {
+    position: absolute;
+    top: 190px;
+    left: 1080px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 116px;
+    width: 692px; 
+    height: 45px;
+    z-index: 5;
+ }
+ 
+ .subtitle_1 {
+    position: absolute;
+    top: 350px;
+    left: 1030px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 24px;
+    width: 579px; 
+    height: 51px;
+    z-index: 5;
+ }

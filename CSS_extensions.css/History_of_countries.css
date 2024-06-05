@@ -1,0 +1,68 @@
+.History {
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #DF622A;
+    overflow: hidden;
+}
+
+.Background_2{
+    position: absolute;
+    top: 50px;
+    left: 42px;
+    width: 1396.5px;
+    height: 700px;
+    z-index: 0;
+}
+
+.passport{
+    position: absolute;
+    top: 456px;
+    left: 1074px;
+    width: 429px;
+    height: 344px;
+    z-index: 1;
+}
+
+.flowers{
+    position: absolute;
+    top: 0px;
+    left: 965px;
+    width: 515px;
+    height: 410px;
+    z-index: 1;
+}
+
+.flower{
+    position: absolute;
+    top: 0px;
+    left: 740px;
+    width: 321px;
+    height: 229px;
+    z-index: 1;
+}
+
+.Heading_3{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 65px;
+    width: 692px; 
+    height: 45px;
+    z-index: 2;
+}
+
+
+.text_3 {
+    position: absolute;
+    top: 205px;
+    left: 48%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 32px;
+    width: 1278px; 
+    height: 420px;
+    z-index: 5;
+ }

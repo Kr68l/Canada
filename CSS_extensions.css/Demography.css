@@ -1,0 +1,50 @@
+.Demography{
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #DF622A;
+    overflow: hidden; 
+}
+
+.Backgrou_3{
+    position: absolute;
+    top: 75px;
+    left: 106.5px;
+    width: 1314px;
+    height: 651.5px;
+    z-index: 0;
+}
+
+.People{
+    position: absolute;
+    top: 257px;
+    left: 969px;
+    width: 511px;
+    height: 526px;
+    z-index: 1;
+}
+
+.Heading_4{
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 78px;
+    width: 1004px; 
+    height: 86px;
+    z-index: 2;
+}
+
+.text_4{
+    position: absolute;
+    top: 209px; 
+    left: 43%; 
+    transform: translateX(-50%);
+    color: black;
+    font-size: 36px;
+    width: 984px; 
+    height: 436px;
+    z-index: 2;
+}
+
