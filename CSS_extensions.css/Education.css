@@ -1,0 +1,25 @@
+.education{
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #DF622A;
+    overflow: hidden; 
+}
+
+.background6{
+    position: absolute;
+    top: 34px;
+    left: 56px;
+    width: 1374px;
+    height: 731px;
+    z-index: 0;
+}
+
+.flowers6{
+    position: absolute;
+    top: 367px;
+    left: 804px;
+    width: 1374px;
+    height: 731px;
+    z-index: 1;
+}
