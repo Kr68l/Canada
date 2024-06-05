@@ -1,0 +1,42 @@
+.international{
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #AED8D3;
+    overflow: hidden;
+}
+
+.flowers_2{
+    position: absolute;
+    top: -28px; 
+    left: 50%;
+    width: 676px; 
+    height: 453px;
+    z-index: 1;
+}
+
+.Heading_5 {
+    position: absolute;
+    top: 205px;
+    left: 48%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 70px;
+    width: 1278px; 
+    height: 420px;
+    z-index: 2;
+ }
+
+.text_5{
+    position: absolute;
+    top: 500px;
+    left: 194px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 34px;
+    width: 1278px; 
+    height: 420px;
+    z-index: 2;
+}
+
+
