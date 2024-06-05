@@ -19,7 +19,20 @@
     position: absolute;
     top: 367px;
     left: 804px;
-    width: 1374px;
-    height: 731px;
+    width: 676px;
+    height: 450px;
     z-index: 1;
+}
+
+
+.Heading_6{
+    position: absolute;
+    top: 34px;
+    left: 525px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 75px;
+    width: 50px; 
+    height: 91px;
+    z-index: 2;
 }
