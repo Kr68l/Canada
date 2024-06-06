@@ -62,7 +62,7 @@
 
 .Heading_10{
     position: absolute;
-    top: 34px;
+    top: -7%;
     left: 525px;
     transform: translateX(-50%);
     color: black;
@@ -74,11 +74,11 @@
 
 .text_10{
     position: absolute;
-    top:100px;
+    top:80px;
     left: 720px;
     transform: translateX(-50%);
     color: black;
-    font-size: 38px;
+    font-size: 37px;
     width: 1160px; 
     height: 625px;
     z-index: 3;
