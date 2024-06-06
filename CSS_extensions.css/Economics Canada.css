@@ -1,0 +1,98 @@
+.Economics{
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #F8CC69;
+    overflow: hidden; 
+}
+
+.Economics_background{
+    position: absolute;
+    top: 76px;
+    left: 19px; 
+    width: 1441px;
+    height: 648px;
+    z-index: 0;
+}
+
+.Table{
+    position: absolute;
+    top: 364px;
+    left: 215px; 
+    width: 787px;
+    height: 215px;
+    z-index: 1;
+}
+
+.Большое_облоко{
+    position: absolute;
+    top: 540px;
+    left: 899px; 
+    width: 537px;
+    height: 267px;
+    z-index: 1;
+}
+
+.Cloud_blue{
+    position: absolute;
+    top: 125px;
+    left: 972px; 
+    width: 488px; 
+    height: 224px;
+    z-index: 1;
+}
+
+.Cloud_right{
+    position: absolute;
+    top: 0px;
+    left: 1167px; 
+    width: 291px; 
+    height: 157px;
+    z-index: 1;
+}
+
+.Cloud_left{
+    position: absolute;
+    top: 29px;
+    left: 0px; 
+    width: 359px; 
+    height: 196px;
+    z-index: 1;
+}
+
+.Heading_6{
+    position: absolute;
+    top: 101px;
+    left: 730px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 51px;
+    width: 463px; 
+    height: 56px;
+    z-index: 2;
+}
+
+.text_6{
+    position: absolute;
+    top: 179px;
+    left: 743px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 27px;
+    width: 1194px; 
+    height: 120px;
+    z-index: 2;
+}
+
+.text_6_2{
+    position: absolute;
+    top: 545px;
+    left: 743px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 27px;
+    width: 1175px; 
+    height: 120px;
+    z-index: 2;
+}
+
