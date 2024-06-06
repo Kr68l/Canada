@@ -1,0 +1,85 @@
+.Culture_for_Canada{
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #AED8D3;
+    overflow: hidden; 
+}
+
+.WhiteBG10{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 1395px;
+    height: 744px;
+    z-index: 3;
+}
+
+.FigureLD10{
+    position: absolute;
+    top: 65%;
+    left: 150px;
+    width: 240px;
+    height: 315px;
+    z-index: 2;
+}
+
+.FigureLM10{
+    position: absolute;
+    top: 332px;
+    left: 0px;
+    width: 237px;
+    height: 316px;
+    z-index: 2;
+}
+
+.FigureLU10{
+    position: absolute;
+    top: 0.25px;
+    left: -10px;
+    width: 191.84px;
+    height: 211.31px;
+    z-index: 2;
+}
+
+.FigureRD10{
+    position: absolute;
+    top: 622px;
+    left: 1200px;
+    width: 280.72px;
+    height: 251.73px;
+    z-index: 2;
+}
+
+.FigureRM10{
+    position: absolute;
+    top: 100px;
+    left: 910px;
+    width: 572.01px;
+    height: 490.02px;
+    z-index: 2; 
+}
+
+.Heading_10{
+    position: absolute;
+    top: 34px;
+    left: 525px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 64px;
+    width: 0px; 
+    height: 30px;
+    z-index: 3;
+}
+
+.text_10{
+    position: absolute;
+    top:100px;
+    left: 720px;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 38px;
+    width: 1160px; 
+    height: 625px;
+    z-index: 3;
+}
