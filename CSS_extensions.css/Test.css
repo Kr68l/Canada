@@ -1,0 +1,73 @@
+.Test_for_remembring {
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #38B6FF;
+    overflow: hidden; 
+}
+
+.CloudB11{
+    position: absolute;
+    top: 61px;
+    left: -9px;
+    width: 396px;
+    height: 193px;
+    z-index: 2;
+}
+
+.CloudS11{
+    position: absolute;
+    top: 30px;
+    left: 99px;
+    width: 346px;
+    height: 139px;
+    z-index: 2;
+}
+
+.FlowersL11{
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    width: 497px;
+    height: 450px;
+    z-index: 2;
+}
+
+.FlowersR11{
+    position: absolute;
+    top: 0px;
+    left: 897px;
+    width: 604px;
+    height: 461px;
+    z-index: 2;
+}
+
+.Pinkrectangle11{
+    position: absolute;
+    top: 379px;
+    left: 326px;
+    width: 827px;
+    height: 150px;
+    z-index: 2;
+}
+
+.Stars11{
+    position: absolute;
+    top: 544px;
+    left: 1130.67px;
+    width: 251px;
+    height: 160px;
+    z-index: 2;
+}
+
+.text_11{
+    position: absolute;
+    top: 329px;
+    left: 860px;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+    font-size: 60px;
+    width: 729px; 
+    height: 196px;
+    z-index: 3;
+}
