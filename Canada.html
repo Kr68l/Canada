@@ -237,7 +237,28 @@
             <img src="./images/test_2/Flowers_Right_14.png" alt="Flowers_Right_14" class=" FlowersR14">
             <img src="./images/test_2/Stars_14.png" alt="Stars_14" class="Stars14">
             <h2 class="text_14">Першим постійним європейським поселенням в Канаді заснували</h2>
+            <button class ="Y_1763">1763</button>
+            <button class="Y_1608">1608</button> <br>
+            <button class="Y_1774">1774</button>
         </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const buttons = document.querySelectorAll('.Y_1763, .Y_1608, .Y_1774');
+    
+                buttons.forEach(button => {
+                    button.addEventListener('click', function () {
+                        if (button.classList.contains('Y_1608')) {
+                            button.classList.add('correct');
+                        } else {
+                            button.classList.add('incorrect');
+                        }
+    
+                        // Disable all buttons after one is clicked
+                        buttons.forEach(btn => btn.disabled = true);
+                    });
+                });
+            });
+        </script>
     </test_2>
     <test_3 class="Test_for_remembring_3">
         <div class="Test_3">

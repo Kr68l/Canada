@@ -67,3 +67,62 @@
     align-items: center;
     text-align: center;
 }
+
+.After_universities {
+    position: absolute;
+    top: 162px;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 36px;
+    width: 516px; 
+    height: 200px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Y_1763{
+    position: absolute;
+    /* color: #F29AD0; */
+    font-size: 20px;
+    top: 430px;
+    left: 600px;
+    width: 70px;
+    height: 50px;
+    z-index: 3; 
+}
+
+.Y_1608{
+    position: absolute;
+    font-size: 20px;
+    top: 430px;
+    left: 800px;
+    width: 70px;
+    height: 50px;
+    z-index: 3; 
+}
+
+.Y_1774{
+    position: absolute;
+    font-size: 20px;
+    top: 510px;
+    left: 700px;
+    width: 70px;
+    height: 50px;
+    z-index: 3; 
+}
+
+/**/ 
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+}
