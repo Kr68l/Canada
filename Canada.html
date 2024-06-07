@@ -204,10 +204,12 @@
             <img src="./images/test_1/star.png" alt="star" class="star">
             <img src="./images/test_1/cloud up.png" alt="cloud_up" class="cloud_up">
             <img src="./images/test_1/cloud down.png" alt="cloud down" class="cloud_down">
-            <h2>Після університетів легше знайти роботу а ніж після колледжу</h2>
-            <h5 class="Так">Так</h5>
-            <h5 class="Ні">Ні</h5>
-            <h5 class="Роботодавець...">Роботодавець не дивиться на це</h5>
+            <h2 class="After_universities">Після університетів легше знайти роботу а ніж після колледжу</h2>
+        </div>
+        <div class ="footer">
+            <button onclick="checkAnswer(this, false)">Так</button>
+            <button onclick="checkAnswer(this, true)">Ні</button> <br><br>
+            <button onclick="checkAnswer(this, false)">Роботодавець не дивиться на це</button>
         </div>
     </test_1>
     <test_2 class="Test_for_remembring_2">
@@ -241,5 +243,22 @@
             <h2 class="text_18">Дякуємо за увагу!</h2>
         </div>
     </Gratitude>
+    <script>
+        function checkAnswer(button, isCorrect) {
+            if (isCorrect) {
+                button.classList.add('correct');
+            } else {
+                button.classList.add('incorrect');
+            }
+            disableButtons();
+        }
+
+        function disableButtons() {
+            const buttons = document.querySelectorAll('.footer button');
+            buttons.forEach(button => {
+                button.disabled = true;
+            });
+        }
+    </script>
 </body>
 </html>
