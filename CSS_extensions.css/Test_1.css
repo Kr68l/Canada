@@ -1,0 +1,52 @@
+.Test_1{
+    position: relative;
+    width: 1480px;
+    height: 800px;
+    background-color: #38B6FF;
+    overflow: hidden; 
+}
+
+.Flowers_up_test1{
+    position: absolute;
+    top: 0px;
+    left: 897px;
+    width: 604px;
+    height: 461px;
+    z-index: 2;
+}
+
+.Flowers_down_test1{
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    width: 497px;
+    height: 450px;
+    z-index: 2;
+}
+
+.star{
+    position: absolute;
+    top: 544px;
+    left: 1130.67px;
+    width: 251px;
+    height: 160px;
+    z-index: 2;
+}
+
+.cloud_up{
+    position: absolute;
+    top: 30px;
+    left: 99px;
+    width: 346px;
+    height: 139px;
+    z-index: 2;
+}
+
+.cloud_down{
+    position: absolute;
+    top: 61px;
+    left: -9px;
+    width: 396px;
+    height: 193px;
+    z-index: 1;
+}
