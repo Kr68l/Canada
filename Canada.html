@@ -268,7 +268,27 @@
             <img src="./images/test_3/Flowers_Right_16.png" alt="Flowers_Right_16" class=" FlowersR16">
             <img src="./images/test_3/Stars_16.png" alt="Stars_16" class="Stars16">
             <h2 class="text_16">Ключовими галузями економіки є видобування природних ресурсів, виробництво тощо...</h2>
+            <button class ="Yes_2">Так</button>
+            <button class="No_2">Ні</button>
         </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const buttons = document.querySelectorAll('.Yes_2, .No_2');
+    
+                buttons.forEach(button => {
+                    button.addEventListener('click', function () {
+                        if (button.classList.contains('Yes_2')) {
+                            button.classList.add('correct');
+                        } else {
+                            button.classList.add('incorrect');
+                        }
+    
+                        // Disable all buttons after one is clicked
+                        buttons.forEach(btn => btn.disabled = true);
+                    });
+                });
+            });
+        </script>
     </test_3>
     <Gratitude class="Thank you for your attention">
         <div class="Thank_you_for_your_attention">

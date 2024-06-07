@@ -42,6 +42,53 @@
     z-index: 2;
 }
 
+.After_universities {
+    position: absolute;
+    top: 162px;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 36px;
+    width: 516px; 
+    height: 200px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Yes_2{
+    position: absolute;
+    /* color: #F29AD0; */
+    font-size: 20px;
+    top: 500px;
+    left: 600px;
+    width: 70px;
+    height: 50px;
+    z-index: 3; 
+}
+
+.No_2{
+    position: absolute;
+    font-size: 20px;
+    top: 500px;
+    left: 800px;
+    width: 70px;
+    height: 50px;
+    z-index: 3; 
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+}
+
 
 .Stars16{
     position: absolute;
