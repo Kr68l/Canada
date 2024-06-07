@@ -54,12 +54,16 @@
 
 .text_16{
     position: absolute;
-    top: 250px;
-    left: 860px;
+    top: 220px;
+    left: 50%;
     transform: translateX(-50%);
     color: #FFFFFF;
     font-size: 45px;
     width: 729px; 
     height: 196px;
     z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
