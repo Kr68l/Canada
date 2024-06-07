@@ -45,8 +45,8 @@
 .Pinkrectangle11{
     position: absolute;
     top: 379px;
-    left: 326px;
-    width: 827px;
+    left: 526px;
+    width: 527px;
     height: 150px;
     z-index: 2;
 }
@@ -63,7 +63,7 @@
 .text_11{
     position: absolute;
     top: 329px;
-    left: 860px;
+    left: 950px;
     transform: translateX(-50%);
     color: #FFFFFF;
     font-size: 60px;
