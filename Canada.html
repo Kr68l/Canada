@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./CSS_extensions.css/Economics Canada.css">
     <link rel="stylesheet" href="./CSS_extensions.css/Culture.css">
     <link rel="stylesheet" href="./CSS_extensions.css/Test.css">
+    <link rel="stylesheet" href="./CSS_extensions.css/Test_1/1.css">
     <link rel="stylesheet" href="./CSS_extensions.css/Test_1.css">
     <link rel="stylesheet" href="./CSS_extensions.css/Test_2.css">
     <link rel="stylesheet" href="./CSS_extensions.css/Test_3.css">
@@ -205,12 +206,28 @@
             <img src="./images/test_1/cloud up.png" alt="cloud_up" class="cloud_up">
             <img src="./images/test_1/cloud down.png" alt="cloud down" class="cloud_down">
             <h2 class="After_universities">Після університетів легше знайти роботу а ніж після колледжу</h2>
+            <button class ="Yes">Так</button>
+            <button class="No">Ні</button> <br>
+            <button class="Not_look">Роботодавець не дивиться на це</button>
         </div>
-        <div class ="footer">
-            <button onclick="checkAnswer(this, false)">Так</button>
-            <button onclick="checkAnswer(this, true)">Ні</button> <br><br>
-            <button onclick="checkAnswer(this, false)">Роботодавець не дивиться на це</button>
-        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const buttons = document.querySelectorAll('.Yes, .No, .Not_look');
+    
+                buttons.forEach(button => {
+                    button.addEventListener('click', function () {
+                        if (button.classList.contains('No')) {
+                            button.classList.add('correct');
+                        } else {
+                            button.classList.add('incorrect');
+                        }
+    
+                        // Disable all buttons after one is clicked
+                        buttons.forEach(btn => btn.disabled = true);
+                    });
+                });
+            });
+        </script>
     </test_1>
     <test_2 class="Test_for_remembring_2">
         <div class="Test_2">
@@ -243,22 +260,6 @@
             <h2 class="text_18">Дякуємо за увагу!</h2>
         </div>
     </Gratitude>
-    <script>
-        function checkAnswer(button, isCorrect) {
-            if (isCorrect) {
-                button.classList.add('correct');
-            } else {
-                button.classList.add('incorrect');
-            }
-            disableButtons();
-        }
-
-        function disableButtons() {
-            const buttons = document.querySelectorAll('.footer button');
-            buttons.forEach(button => {
-                button.disabled = true;
-            });
-        }
-    </script>
+    
 </body>
 </html>
